@@ -12,7 +12,7 @@ Generate a secret key:
 werf helm secret generate-secret-key
 ```
 
-Encrypt a yaml files:
+Encrypt a yaml file:
 
 ```sh
 werf helm secret values encrypt .cleartext-secrets.yaml
