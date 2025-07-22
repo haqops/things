@@ -127,7 +127,7 @@ def save_last_processed_block(block_number):
 
 # Specify the start and end block numbers for processing
 start_block = read_last_processed_block() or 2840250  # Read from file or start from default
-end_block = 13848616
+end_block = 17897523
 
 # Run the block processing
 if __name__ == "__main__":
